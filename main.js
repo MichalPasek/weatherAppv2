@@ -169,6 +169,7 @@ function getWeather(e) {
                     icon6: data.list[7].weather[0].icon
                 }
                 createElement(object);
+                document.getElementById("myForm").reset();
             })
             .catch((err) => {
                 console.log(err);
