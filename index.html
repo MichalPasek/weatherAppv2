@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <meta charset="utf-8"/>
+        <title>Forecast</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" type=" text/css">
+    </head>
+    <body>
+        <div id="backgroundImage"></div>
+        <form id='myForm'> 
+            <div id="searchCity">
+                <i class="fas fa-city fa-lg" ></i>
+                <input type="text" placeholder="Add City..."  id='searchBar' required; />
+                <i class="fas fa-plus-square fa-2x" id='addButton'></i>
+            </div>
+            <ul id="hints"></ul>
+        </form>
+            
+        </div>
+        <div id="mainDiv" class="main_flex">
+            <!-- ADD FLEXELEM HERE-->
+        </div>
+        
+        <script src="main.js"></script>
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6CoBGD0XT2nbmLZB01lHfIl6r2Xd_dzE&libraries=places&callback=activatePlacesSearch">
+        </script>
+    </body>
+</html>
