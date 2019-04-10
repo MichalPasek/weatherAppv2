@@ -220,8 +220,6 @@ function getWeather(e) {
         document.getElementById('hints').innerHTML = '';
     }
 };
-
-const clean=()=>{
     
 }
 
