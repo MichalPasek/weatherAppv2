@@ -221,7 +221,7 @@ function getWeather(e) {
     }
 };
     
-}
+
 
 /* FUNCTIONS */
 const inputDown = (value) => {
